@@ -12,6 +12,7 @@ contenir la chaÃ®ne de caractÃ¨res "Bonsoir tout le monde."
 
 phrase = "Bonjour tout le monde."
 nouvelle_phrase =phrase.replace('Bonjour', 'Bonsoir')
+print(nouvelle_phrase)
 ### exo 2
 """
 Compter le nombre d'occurrences d'une lettre dans une phrase 
@@ -27,6 +28,7 @@ dans une variable rÃ©sultat le nombre 4 !
 lettre_a_chercher = "o"
 phrase = "Bonjour tout le monde"
 resultat = phrase.count(lettre_a_chercher)
+print(resultat)
 
 
 ##################### exo 3 ####################
@@ -53,7 +55,7 @@ while i <len(lorem):
      if lorem[i]==car:
           nc=nc +1
      i=i+1
-#print(nc)
+print(nc)
 
 ##################### exo 4 ####################
 """
